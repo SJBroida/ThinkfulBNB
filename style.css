@@ -142,6 +142,7 @@ footer p {
   header {
     display: flex;
     justify-content: space-between;
+    align-self: center;
   }
 
   .group {
@@ -149,9 +150,18 @@ footer p {
     flex-direction: row;
   }
 
+  .item {
+    align-self: center;
+  }
+
+  .item-double {
+    align-self: center;
+  }
+
   .form-group {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .form-item {
