@@ -142,6 +142,7 @@ footer p {
   header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-self: center;
   }
 
@@ -161,6 +162,7 @@ footer p {
   .form-group {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
